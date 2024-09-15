@@ -15,7 +15,7 @@ body {
   width: 90%;
   max-width: 1200px;
   margin: 20px auto;
-  padding: 50px;
+  padding: 70px;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(15, 15, 15, 0.1);
@@ -27,12 +27,12 @@ header {
 }
 
 header h1 {
-  font-size: 28px;
+  font-size: 24px;
   color: #0d0d0e;
 }
 
 header h2 {
-  font-size: 20px;
+  font-size: 18px;
   color: #0d0d0e;
   margin-top: 10px;
 }
@@ -41,21 +41,14 @@ section {
   margin-bottom: 20px;
 }
 
-ol {
-  margin-left: 20px; /* Ajusta o espaçamento da lista numerada */
-}
-
-ol li {
-  margin-bottom: 10px; /* Adiciona espaço entre os itens da lista */
-}
-
+ol,
 ul {
-  list-style-type: disc; /* Define o estilo de lista com bolinhas */
-  margin-left: 20px; /* Adiciona espaçamento à esquerda */
+  margin-left: 20px;
 }
 
+ol li,
 ul li {
-  margin-bottom: 10px; /* Adiciona espaço entre os itens da lista */
+  margin-bottom: 10px;
 }
 
 h3,
@@ -64,45 +57,67 @@ h4 {
   margin-bottom: 10px;
 }
 
-ul {
-  list-style-type: disc;
-  margin-left: 20px;
+blockquote {
+  margin-left: 100px;
+  font-style: italic;
+  font-weight: bold;
 }
 
-body {
-  font-family: Arial, sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0;
-  padding: 20px;
-  background-color: #f5f5f5;
-}
 .team-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 30px;
 }
+
 .member {
-  margin: 0 15px;
+  flex: 1 1 calc(50% - 20px);
+  margin: 0 10px;
   text-align: center;
 }
+
 .member h2 {
   margin: 0;
 }
+
 .member p {
   margin: 5px 0;
   font-size: 15px;
 }
 
-blockquote {
-  margin-left: 90px; /* Define o recuo para a esquerda */
-  font-style: italic; /* Já garante o estilo em itálico */
-  font-weight: bold; /* Já garante o estilo em negrito */
+/* Media Queries */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 20px;
+  }
+
+  header h2 {
+    font-size: 16px;
+  }
+
+  .member {
+    flex: 1 1 100%;
+  }
 }
 
-.leaders {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+@media (max-width: 480px) {
+  .container {
+    padding: 15px;
+  }
+
+  header h1 {
+    font-size: 18px;
+  }
+
+  header h2 {
+    font-size: 14px;
+  }
+
+  .member {
+    flex: 1 1 100%;
+  }
+
+  .team-container {
+    flex-direction: column;
+  }
 }
