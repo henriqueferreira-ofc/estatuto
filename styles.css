@@ -15,9 +15,9 @@ body {
   width: 90%;
   max-width: 1200px;
   margin: 20px auto;
-  padding: 20px;
+  padding: 50px;
   background-color: #fff;
-  border-radius: 8px;
+  border-radius: 10px;
   box-shadow: 0 0 10px rgba(15, 15, 15, 0.1);
 }
 
