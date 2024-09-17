@@ -59,6 +59,7 @@ h4 {
 }
 
 blockquote {
+  margin-bottom: 60px;
   margin-left: 100px;
   font-style: italic;
   font-weight: bold;
