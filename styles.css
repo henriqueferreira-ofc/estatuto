@@ -1,3 +1,4 @@
+/* Seu CSS atual (mantido integralmente) */
 * {
   margin: 0;
   padding: 0;
@@ -87,13 +88,11 @@ blockquote {
   font-size: 18px;
 }
 
-/* Estilo do QR Code */
 .qr-code-center {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Alinha à direita */
-  margin-top: 40px auto 0;
-  margin: auto; /* Empurra para a direita */
+  align-items: center;
+  margin: 40px auto 0;
   width: 150px;
   text-align: center;
 }
@@ -109,22 +108,9 @@ blockquote {
   font-size: 13px;
   font-weight: bold;
   color: #333;
-  font-weight: bold;
 }
 
 /* Responsividade */
-@media (max-width: 768px) {
-  .qr-container {
-    width: 120px;
-    left: 10px;
-    bottom: 10px;
-  }
-  .qr-text {
-    font-size: 12px;
-  }
-}
-
-/* Media Queries */
 @media (max-width: 768px) {
   header h1 {
     font-size: 20px;
@@ -158,5 +144,139 @@ blockquote {
 
   .team-container {
     flex-direction: column;
+  }
+}
+
+/* ============================================= */
+/* NOVAS REGRAS PARA IMPRESSÃO (ADICIONADAS ABAIXO) */
+/* ============================================= */
+
+@media print {
+  /* Reset geral para impressão */
+  body {
+    background: white !important;
+    color: black !important;
+    font-size: 12pt;
+    line-height: 1.4;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* Container principal - ajuste preciso */
+  .container {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 10mm 15mm !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    background: white !important;
+  }
+
+  /* Controle total de quebras de página */
+  section,
+  ol,
+  ul,
+  .team-container,
+  blockquote,
+  .qr-code-center {
+    page-break-inside: avoid !important;
+    page-break-after: auto !important;
+    margin-bottom: 12pt !important;
+  }
+
+  /* Garante fluxo contínuo do conteúdo */
+  header {
+    page-break-after: avoid !important;
+    margin-bottom: 15pt !important;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    page-break-after: avoid !important;
+  }
+
+  /* Ajuste fino para os elementos de texto */
+  header h1 {
+    font-size: 18pt !important;
+    margin-bottom: 10pt !important;
+  }
+
+  section h3 {
+    font-size: 14pt !important;
+    margin-top: 12pt !important;
+    margin-bottom: 8pt !important;
+  }
+
+  /* Espaçamento entre seções */
+  section {
+    margin-top: 0 !important;
+    margin-bottom: 5pt !important;
+    padding-bottom: 0 !important;
+  }
+
+  /* Correção CRÍTICA para evitar páginas em branco */
+  .container > * {
+    page-break-before: avoid !important;
+  }
+
+  /* Configuração da página */
+  @page {
+    size: A4;
+    margin: 15mm;
+    orphans: 4;
+    widows: 4;
+  }
+
+  /* Forçar fluxo contínuo */
+  .content-wrapper {
+    display: block !important;
+  }
+
+  /* Ajuste final para o QR Code */
+  .qr-code-center {
+    margin-top: 20pt !important;
+    margin-bottom: 0 !important;
+    page-break-before: avoid !important;
+  }
+}
+@media print {
+  /* ... (mantenha todo o restante do seu @media print) ... */
+
+  /* CORREÇÃO ESPECÍFICA PARA OS NOMES */
+  .team-container {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    margin-bottom: 10pt !important;
+    page-break-inside: avoid !important;
+    width: 100% !important;
+  }
+
+  .member {
+    flex: 1 1 calc(50% - 20px) !important;
+    margin: 10px !important;
+    text-align: center !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+
+  .member h2 {
+    font-size: 14pt !important;
+    margin: 5pt 0 !important;
+    font-weight: bold !important;
+  }
+
+  .member p {
+    font-size: 12pt !important;
+    margin: 3pt 0 !important;
+    line-height: 1.4 !important;
+  }
+
+  /* Garante que não haja quebra entre os pares de nomes */
+  .member:nth-child(odd) {
+    page-break-after: avoid !important;
   }
 }
