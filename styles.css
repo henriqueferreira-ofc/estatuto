@@ -87,6 +87,43 @@ blockquote {
   font-size: 18px;
 }
 
+/* Estilo do QR Code */
+.qr-code-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Alinha à direita */
+  margin-top: 40px auto 0;
+  margin: auto; /* Empurra para a direita */
+  width: 150px;
+  text-align: center;
+}
+
+.qr-code-center img {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #eee;
+}
+
+.qr-code-center p {
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .qr-container {
+    width: 120px;
+    left: 10px;
+    bottom: 10px;
+  }
+  .qr-text {
+    font-size: 12px;
+  }
+}
+
 /* Media Queries */
 @media (max-width: 768px) {
   header h1 {
