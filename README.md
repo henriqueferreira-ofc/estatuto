@@ -3,7 +3,7 @@
 # 📋 Ministério Missão de Louvor (MML) - Estatuto Digital
 
 <div align="center">
-  <img src="https://via.placeholder.com/800x500/3d5a80/ffffff?text=MML+Estatuto+Digital" alt="Preview da Página" width="100%">
+  <img src="https://henriqueferreira-ofc.github.io/estatuto/" alt="Preview da Página" width="100%">
 </div>
 
 ## ✨ Sobre o Projeto
@@ -35,7 +35,7 @@ Código CSS dedicado garante que a versão impressa mantenha:
 
 ##  📥 Como Usar
 1. Clone o repositório:
-git clone https://github.com/seu-usuario/mml-estatuto.git
+git clone https://henriqueferreira-ofc.github.io/estatuto/
 2. Abra o arquivo index.html no navegador
 3. Para imprimir (Ctrl+P), ative:
     - "Imprimir fundos"
