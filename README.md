@@ -3,7 +3,7 @@
 # 📋 Ministério Missão de Louvor (MML) - Estatuto Digital
 
 <div align="center">
-  <img src="" alt="Preview da Página" width="100%">
+  <img src="https://github.com/henriqueferreira-ofc/estatuto/blob/main/estatuto.jpg" alt="Preview da Página" width="100%">
 </div>
 
 ## ✨ Sobre o Projeto
@@ -52,7 +52,7 @@ Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para d
 <div align="center"> <p>🎶 Ministério Missão de Louvor - Levando a adoração a novos patamares</p> </div>
 
 ## 📸 Preview Adicional
-<div align="center"> <img src="preview-desktop.png" alt="Versão Desktop" width="45%"> <img src="preview-mobile.png" alt="Versão Mobile" width="45%"> </div>
+<div align="center"> <img src="https://github.com/henriqueferreira-ofc/estatuto/blob/main/estatuto.jpg" alt="Versão Desktop" width="45%"> <img src="https://github.com/henriqueferreira-ofc/estatuto/blob/main/mobile.jpg" alt="Versão Mobile" width="25%"> </div>
 
 ## 🚀 Implementação
 - Substitua qr-code-whatsapp.png pelo seu QR Code real
