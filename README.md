@@ -3,7 +3,7 @@
 # 📋 Ministério Missão de Louvor (MML) - Estatuto Digital
 
 <div align="center">
-  <img src="https://henriqueferreira-ofc.github.io/estatuto/" alt="Preview da Página" width="100%">
+  <img src="" alt="Preview da Página" width="100%">
 </div>
 
 ## ✨ Sobre o Projeto
@@ -31,7 +31,7 @@ Código CSS dedicado garante que a versão impressa mantenha:
 - Organização do conteúdo
 
 ##  📱 Contato Rápido
-<div align="center"> <img src="qr-code-whatsapp.png" alt="QR Code WhatsApp" width="150"> <p>Escaneie para falar com nossa liderança</p> </div>
+<div align="center"> <img src="https://github.com/henriqueferreira-ofc/estatuto/blob/main/linkQrCodeWhathsApp.png" alt="QR Code WhatsApp" width="150"> <p>Escaneie para falar com nossa liderança</p> </div>
 
 ##  📥 Como Usar
 1. Clone o repositório:
