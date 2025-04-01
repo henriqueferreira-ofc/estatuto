@@ -31,7 +31,7 @@ Código CSS dedicado garante que a versão impressa mantenha:
 - Organização do conteúdo
 
 ##  📱 Contato Rápido
-<div align="center"> <img src="https://github.com/henriqueferreira-ofc/estatuto/blob/main/image/linkQrCodeWhathsApp.png" alt="QR Code WhatsApp" width="150"> <p>Escaneie para falar com nossa liderança</p> </div>
+<div align="center"> <img src="https://github.com/henriqueferreira-ofc/estatuto/blob/main/image/linkQrCodeWhathsApp.png" alt="QR Code WhatsApp" width="150"> <p>Escaneie para ajudar nosso Ministério de Louvor</p> </div>
 
 ##  📥 Como Usar
 1. Clone o repositório:
