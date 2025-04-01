@@ -1,96 +1,76 @@
-# 🧑‍💻 HenriquePortfolio
+# 🧑‍💻 Estatuto da MML
+
+# 📋 Ministério Missão de Louvor (MML) - Estatuto Digital
 
 <div align="center">
-
-<img src="https://raw.githubusercontent.com/portfolio-projetos-dev/portfoleo/main/.gitassets/capa.png" width="350px">
-
-<div data-badges>
-    <img src="https://img.shields.io/github/stars/portfolio-projetos-dev/portfoleo?style=for-the-badge" alt="GitHub stars" />
-    <img src="https://img.shields.io/github/forks/portfolio-projetos-dev/portfoleo?style=for-the-badge" alt="GitHub forks" />
-    <img src="https://img.shields.io/github/issues/portfolio-projetos-dev/portfoleo?style=for-the-badge" alt="GitHub issues" />
+  <img src="https://github.com/henriqueferreira-ofc/estatuto/blob/main/estatuto.jpg" alt="Preview da Página" width="100%">
 </div>
 
-<div data-badges>
-  <img src="https://img.shields.io/badge/next.js-%23000000.svg?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
-    <img src="https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS" />
-    <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-    <img src="https://img.shields.io/badge/prisma-%232D3748.svg?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma" />
-    <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="TailwindCSS" />
-    <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React" />
-    <img src="https://img.shields.io/badge/n8n-%2300C4B4.svg?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n" />
-    <img src="https://img.shields.io/badge/supabase-%233ECF8E.svg?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
-</div>
+## ✨ Sobre o Projeto
+Este repositório contém o **Estatuto Digital** do Ministério Missão de Louvor (MML), uma página web responsiva que:
 
-</div>
+- Apresenta as diretrizes e normas do ministério
+- Oferece versão para impressão fiel ao layout digital
+- Inclui QR Code para contato rápido via WhatsApp
+- Mantém design limpo e acessível
 
-O Portfoleo é uma aplicação full stack que integra tecnologias populares do mercado para criar uma vitrine digital das habilidades e projetos de um desenvolvedor. Esta plataforma vai além da simples exibição de trabalhos anteriores, funcionando como uma demonstração prática das capacidades técnicas do profissional, evidenciando seu domínio em desenvolvimento web moderno.
+## 🛠 Tecnologias Utilizadas
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![Responsive](https://img.shields.io/badge/Responsive-Design-3DDC84?style=flat)
+![Print Optimized](https://img.shields.io/badge/Print-Optimized-8A2BE2?style=flat)
 
-Além de apresentar os projetos do desenvolvedor, a aplicação incorpora agentes de IA inteligentes que têm acesso completo ao currículo, repositórios do GitHub e histórico do profissional. Essa integração permite que recrutadores e potenciais clientes explorem, através de interações em tempo real via chat, aspectos específicos das competências técnicas do desenvolvedor. Os chats com os agentes oferecem insights valiosos, permitindo que visitantes façam perguntas e recebam informações detalhadas sobre as habilidades e experiências do profissional, tornando o processo de avaliação mais dinâmico e informativo.
+## 🌟 Recursos Destacados
 
-## 🖥️ Como rodar este projeto 🖥️
+## 🖨️ Otimização para Impressão
+![Print Optimized](https://img.shields.io/badge/Print_Version-Perfect_Match-8A2BE2?style=for-the-badge&logo=printer&logoColor=white)
 
-### Requisitos:
+Código CSS dedicado garante que a versão impressa mantenha:
+- Layout idêntico ao digital
+- Fidelidade de cores
+- Organização do conteúdo
 
--   Node.js instalado
+##  📱 Contato Rápido
+<div align="center"> <img src="https://github.com/henriqueferreira-ofc/estatuto/blob/main/linkQrCodeWhathsApp.png" alt="QR Code WhatsApp" width="150"> <p>Escaneie para falar com nossa liderança</p> </div>
 
-### Execução:
+##  📥 Como Usar
+1. Clone o repositório:
+git clone https://henriqueferreira-ofc.github.io/estatuto/
+2. Abra o arquivo index.html no navegador
+3. Para imprimir (Ctrl+P), ative:
+    - "Imprimir fundos"
+    - Margens mínimas
 
-1. Clone este repositório:
+## 🤝 Contribuições
+Contribuições são bem-vindas! Siga nosso padrão de:
+- Semântica HTML5
+- CSS organizado por seções
+- Media Queries para responsividade
 
-    ```sh
-    git clone https://github.com/portfolio-projetos-dev/portfoleo.git
-    ```
+## 📄 Licença
+Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para detalhes.
+<div align="center"> <p>🎶 Ministério Missão de Louvor - Levando a adoração a novos patamares</p> </div>
 
-2. Acesse o diretório do projeto:
+## 📸 Preview Adicional
+<div align="center"> <img src="https://github.com/henriqueferreira-ofc/estatuto/blob/main/estatuto.jpg" alt="Versão Desktop" width="45%"> <img src="https://github.com/henriqueferreira-ofc/estatuto/blob/main/mobile.jpg" alt="Versão Mobile" width="25%"> </div>
 
-    ```sh
-    cd portfoleo
-    ```
+## 🚀 Implementação
+- Substitua qr-code-whatsapp.png pelo seu QR Code real
+- Adicione screenshots reais em preview-desktop.png e preview-mobile.png
+- Atualize o link do repositório no comando git clone
 
-3. Acesse sua conta no [Supabase](https://supabase.com) ou crie uma nova conta.
+## 💡 Dicas
+- Use Shields.io para criar badges personalizadas
+- Para GIF animado, grave um screencast usando ScreenToGif
+- Mantenha sempre atualizado o arquivo README.md conforme novas funcionalidades forem adicionadas
 
-4. Navegue até o projeto no Supabase e clique no botão `connect`.
-   
-5. Clique em selecionar ORM e selecione o ORM Prisma.
-   
-6. Copie as variáveis de ambiente listadas, crie um arquivo `.env` na pasta backend e preencha com as seguintes informações:
-    ```
-    DATABASE_URL=
-    DIRECT_URL=
-    PORT=
-    ```
-    **Obs: Caso o valor da porta não seja adicionado, a aplicação rodará por padrão na porta 4000**
+## 🔍 Destaques do README
+- Badges Visuais - Ícones de tecnologias e status
+- GIF/Preview - Espaço reservado para imagem do projeto
+- Trechos de Código - Mostra estrutura limpa do projeto
+- Seção de Impressão - Destaque para a otimização única
+- QR Code Visual - Chamada para ação de contato
+- Instruções Claras - Como usar e contribuir
 
-7. Crie uma conta no site no [n8n](https://n8n.io), e importe o fluxo definido no arquivo assistente-pessoal que está na pasta assets.
 
-8. Após importar o fluxo, clique no primeiro nó, acesse `webhooks url`, clique em `Production URL` e copie o valor dessa URL.
-**Obs: Lembre-se de ativar o workflow no n8n**
 
-9. Crie um arquivo `.env` na pasta web e preencha com as seguintes informações, sendo que a URL da API é a URL do backend e a segunda variável deve ter como valor a URL que extraimos no n8n:
-
-    ```
-    NEXT_PUBLIC_API_URL=
-    NEXT_PUBLIC_CHAT_WEBHOOK=
-    ```
-
-10. Instale as dependências dos projetos `web` e `backend` com o comando `npm i` em cada uma das pastas
-
-11. Abra as pastas `web` e `backend` em dois terminais diferentes e rode o comando `npm run dev` em cada um dos terminais para executar o projeto. 
-
-## 🗒️ Features do projeto 🗒️
-
--   Exibição de Projetos
--   Integração com Agentes de IA via Chat
--   Repositórios GitHub Integrados
--   Lista de tecnologias destacadas
--   Lista de tecnologias dos projetos
--   Buscar os projetos por Id com as tecnologias associadas
-
-![](./.gitassets/2.png)   
-
-## 💎 Links úteis 💎
-
--   [Next.js](https://nextjs.org/docs)
--   [NestJS](https://docs.nestjs.com/)
--   [Prisma](https://www.prisma.io/docs)
--   [Supabase](https://supabase.com)
